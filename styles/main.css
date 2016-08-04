@@ -6,19 +6,18 @@ body {
   background-image: url(../assets/bg.jpg);
 }
 
+.center {
+  margin: 0 auto;
+  width: 650px;
+}
+
 .subscribe {
   color: white;
   text-transform: uppercase;
-  margin-left: 800px;
+  margin-left: 400px;
   display: inline-block;
 }
 
-.logos {
-  height: 30px;
-  width: 30px;
-  opacity: 0.5%;
-  margin-left: 5px;
-}
 
 .facebook {
   background-color: rgb(117, 130, 182);
@@ -26,6 +25,7 @@ body {
   width: 30px;
   opacity: 0.5%;
   margin-left: 5px;
+  border-bottom: solid gray;
 }
 
 .rss {
@@ -34,6 +34,7 @@ body {
   width: 30px;
   opacity: 0.5%;
   margin-left: 5px;
+  border-bottom: solid gray;
 }
 
 .twitter {
@@ -42,6 +43,7 @@ body {
   width: 30px;
   opacity: 0.5%;
   margin-left: 5px;
+  border-bottom: solid gray;
 }
 
 .youtube {
@@ -50,17 +52,45 @@ body {
   width: 30px;
   opacity: 0.5%;
   margin-left: 5px;
+  border-bottom: solid gray;
 
 }
 
-.nav__bar {
-  text-transform: capitalize;
+.nav-bar {
+  text-transform: uppercase;
   text-decoration: none;
   color: white;
   background-color: rgb(180, 41, 46);
-  vertical-align: top;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
 }
 
+.carousel__container {
+  margin: 10px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel__background {
+  background-image:url(../assets/top-image.png);
+  background-position: top left;
+  background-size: 130%;
+  border: 5px solid white;
+  height: 250px;
+  position: relative;
+}
+
+.logo-img {
+  height: 90%;
+  width: 50%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
 
 .grid__column {
   display: inline-block;
@@ -71,15 +101,25 @@ body {
 }
 
 .article {
-    padding: 15px;
+    padding: 10px;
+    align-items: center;
 }
 
 .article__title {
   text-transform: capitalize;
 }
 
+.article__date {
+  color: gray;
+}
+
+.article__preview {
+  text-align: center;
+}
+
 .readMore {
   color: red;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 }
