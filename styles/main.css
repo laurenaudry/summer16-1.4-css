@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/bg.jpg);
+}
+
+.subscribe {
+  color: white;
+  text-transform: uppercase;
+}
+
+.logos {
+  height: 20px;
+  width: 20px;
+}
+
+.grid__column {
+  display: inline-block;
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: white;
+}
+
+.article {
+    padding: 15px;
+}
+
+.article__title {
+  text-transform: capitalize;
+}
+
+.readMore {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+}
