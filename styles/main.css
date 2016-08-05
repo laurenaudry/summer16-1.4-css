@@ -9,13 +9,16 @@ body {
 .center {
   margin: 0 auto;
   width: 650px;
+  overflow: auto;
 }
 
 .subscribe {
   color: white;
   text-transform: uppercase;
-  margin-left: 400px;
+  margin-left: 350px;
   display: inline-block;
+  text-decoration: none;
+  font-family: 'Hind', sans-serif;
 }
 
 
@@ -24,7 +27,7 @@ body {
   height: 30px;
   width: 30px;
   opacity: 0.5%;
-  margin-left: 5px;
+  margin-left: 50px;
   border-bottom: solid gray;
 }
 
@@ -53,7 +56,6 @@ body {
   opacity: 0.5%;
   margin-left: 5px;
   border-bottom: solid gray;
-
 }
 
 .nav-bar {
@@ -67,6 +69,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   display: inline-block;
+  font-family: 'Hind', sans-serif;
 }
 
 .carousel__container {
@@ -95,28 +98,29 @@ body {
 .grid__column {
   display: inline-block;
   width: 30%;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin: 8px;
   background: white;
   vertical-align: top;
 }
 
 .article {
+    text-align: left;
+    font-family: 'Hind', sans-serif;
     padding: 10px;
-    align-items: center;
-    margin: 10px;
 }
 
-.article__title {
+.article_title {
   text-transform: capitalize;
+  font-size: 15px;
 }
 
-.article__date {
+.article_date {
   color: gray;
 }
 
-.article__preview {
+.article_preview {
   text-align: center;
+  font-size: 5px;
 }
 
 .readMore {
@@ -124,4 +128,34 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
+}
+
+.skater_images {
+
+}
+
+.tommy {
+  height: 464;
+  width: 365;
+  border: 5px solid white;
+  border: 5px solid white;
+}
+
+.rodney {
+  height: 223;
+  width:322;
+  border: 5px solid white;
+}
+
+.steve {
+  width: 670;
+  height: 224;
+  align-self: middle;
+  border: 5px solid white;
+}
+
+.footer_box {
+  background: white;
+  size: 80%;
 }
