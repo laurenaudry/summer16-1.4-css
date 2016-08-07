@@ -150,7 +150,8 @@ body {
 
 .imageContainer {
   position: relative;
-  display: inline-block;;
+  display: inline-block;
+  margin: 6px;
 }
 
 .imageContainer:nth-child(3) {
@@ -158,6 +159,9 @@ body {
 }
 /* Need to position images correctly */
 .tommy {
+  background-image: url(../assets/sk8er-2.png);
+  background-position: right;
+  background-repeat: no-repeat;
   height: 464px;
   width: 300px;
   border: 5px solid white;
@@ -165,6 +169,8 @@ body {
 }
 
 .lance {
+  background-image: url(../assets/sk8er-4.png);
+  background-position: right;
   height: 221px;
   width: 323px;
   border: 5px solid white;
@@ -172,6 +178,8 @@ body {
 }
 
 .rodney {
+  background-image: url(../assets/sk8er-3.png);
+  background-position: center;
   height: 223px;
   width:322px;
   border: 5px solid white;
@@ -179,10 +187,12 @@ body {
 }
 
 .steve {
-  width: 665px;
-  height: 220px;
-  border: 5px solid white;
-  overflow: hidden;
+ background-image: url(../assets/sk8er-1.png);
+ background-position: left;
+ height: 230px;
+ width: 664px;
+ border: 5px solid white;
+ overflow: hidden;
 }
 
 .skateboards {
@@ -198,4 +208,14 @@ body {
 .footer_box {
   background: white;
   size: 70%;
+  height: 300px;
+  padding: 10px;
+}
+/*working on footer*/
+.contact_section {
+  margin-right: 50%;
+}
+
+.submit {
+
 }
