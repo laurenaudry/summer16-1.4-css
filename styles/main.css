@@ -149,8 +149,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: 'Hind', sans-serif;
-  font-weight: 900;
+  font-family: arial black;
+  font-weight: bolder;
   font-size: 30px;
   text-align: center;
   margin: 0;
@@ -220,7 +220,7 @@ body {
   background: white;
   size: 70%;
   height: 300px;
-  overflow: inherit;
+  overflow: auto;
   padding: 10px;
 }
 /*working on footer*/
@@ -229,10 +229,16 @@ body {
   padding: 20px;
 }
 /* I know this isn't right but couldn't finish. */
-.submit {
-  text-align: right;
+.form {
+  margin-left: 75%;
 }
 
 .button {
-  color: rgb(176,	43,	50);
+    background-color: rgb(180, 41, 46);
+    color: rgb(180, 41, 46);
+    border: none;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    width: 75px;
 }
