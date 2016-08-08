@@ -134,7 +134,7 @@ body {
   text-align: left;
   font-size: 15px;
 }
-
+/*not sure why this didn't align in center..*/
 .readMore {
   color: red;
   text-transform: uppercase;
